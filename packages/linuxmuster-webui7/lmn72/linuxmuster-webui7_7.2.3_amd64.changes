@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sat, 07 Jan 2023 10:37:16 +0100
+Source: linuxmuster-webui7
+Binary: linuxmuster-webui7
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 7.2.3
+Distribution: lmn72
+Urgency: medium
+Maintainer: Andreas Till <andreas.till@netzint.de>
+Changed-By: Arnaud Kientz <arnaud@linuxmuster.net>
+Description:
+ linuxmuster-webui7 - Next generation web-based management tool for linuxmuster.net v7.
+Changes:
+ linuxmuster-webui7 (7.2.3) lmn72; urgency=medium
+ .
+   * Add python3-jinja2 to dependency
+   * Add missing chars for passwords. Fix #254.
+   * Fix looking for dfs proxies
+   * [Clients] Edit Drives.xml Fix #228
+   * [Devices] Sort by padded ips. Fix #249
+   * [Groupmembership] Fix double teacher role
+   * [Groupmembership] Refresh members list when adding a teacher in class
+   * [Groupmembership] Always add teachers as admins in classes
+   * [Landingpage] Fix injector error
+   * [Linbo-sync] Add support for multischool. Fix #250
+   * [Session] Sort username by lastname and firstname. Fix #127
+   * [Session] Add button to directly rename/delete a session
+   * [Smbclient] Use samba realm instead of samba domain to access samba shares
+   * [Users] Better handle some errors on sophomorix-check and encoding detecting
+   * [Users] Blur background if modal window with password is shown
+Checksums-Sha1:
+ c301bbe7b5679034a08668f0ae8f70bcae8687b4 564 linuxmuster-webui7_7.2.3.dsc
+ d37b4321fa3a44615d838e776e0e0c9019f55fb8 20802202 linuxmuster-webui7_7.2.3.tar.gz
+ f41084c1f8522f9c80e392f299e934b85f66c566 841610 linuxmuster-webui7_7.2.3_all.deb
+ 0ba065f61790f9e16492ee8d8b8068bb30b6ee2c 7665 linuxmuster-webui7_7.2.3_amd64.buildinfo
+Checksums-Sha256:
+ d3103779b2ae64e9f11c151da45b3ac431926f09c1c2aeacd92f25e9392b39c7 564 linuxmuster-webui7_7.2.3.dsc
+ b9d6941efabe6ef8439f42b9dc36a6258f8235823a6842eed5e3fea5c11ded34 20802202 linuxmuster-webui7_7.2.3.tar.gz
+ 95049d3facfe75f9173026f44c6e0e25de954a3bed1cdc793fb33cafc5e39290 841610 linuxmuster-webui7_7.2.3_all.deb
+ 21ecab926a69de41dc14b522cb4736e41f58c40f1f45b221e27b8279958cb18c 7665 linuxmuster-webui7_7.2.3_amd64.buildinfo
+Files:
+ 18314da444452bcaa4372860e68bf7ba 564 admin optional linuxmuster-webui7_7.2.3.dsc
+ c8b33aee1b3a4a59fb148a5d1d96e40e 20802202 admin optional linuxmuster-webui7_7.2.3.tar.gz
+ d8fcad2a357be18e7dd568acd16f4e7b 841610 admin optional linuxmuster-webui7_7.2.3_all.deb
+ ed83cc7bc671940a810d863e2d9d9c9f 7665 admin optional linuxmuster-webui7_7.2.3_amd64.buildinfo
