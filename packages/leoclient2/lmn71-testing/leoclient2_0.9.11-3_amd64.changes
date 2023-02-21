@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 21 Feb 2023 15:15:38 +0100
+Source: leoclient2
+Binary: leoclient2-leovirtstarter-client leoclient2-vm-printer
+Architecture: source all
+Version: 0.9.11-3
+Distribution: lmn71-testing
+Urgency: medium
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Changed-By: bz <bz@adler>
+Description:
+ leoclient2-leovirtstarter-client - alternativ software to start VirtualBox
+ leoclient2-vm-printer - Watches a directory used for virtual machine printing.
+Changes:
+ leoclient2 (0.9.11-3) lmn71-testing; urgency=medium
+ .
+   * some mods to build on newer ubuntu
+Checksums-Sha1:
+ 9749234712909801e67fd5d5d88b6694380de8c5 658 leoclient2_0.9.11-3.dsc
+ 83121e5e0ac36a699d63e4a71a00633d83b95f2c 252542 leoclient2_0.9.11-3.tar.gz
+ 20c8c38836c231c25b38f4eefd4d8c9ba79a0ece 42364 leoclient2-leovirtstarter-client_0.9.11-3_all.deb
+ 6e7bf5ca6da20a38b2a6e12ffd62ca43e2e30ee9 6196 leoclient2-vm-printer_0.9.11-3_all.deb
+ 5c8aa002510b108f8e6fe82cf7254ac323466521 7157 leoclient2_0.9.11-3_amd64.buildinfo
+Checksums-Sha256:
+ 083abb1598d02eb57671c7db66ed45a6384409cc5b7086fb018b452670b3a6df 658 leoclient2_0.9.11-3.dsc
+ 141494430f08f683a43235c74438654571295a9178814f1f48709feedf16d58c 252542 leoclient2_0.9.11-3.tar.gz
+ edc6c16834ac84bf3c3ed8ea6bfb6149e44fb6752309944e46ce576a5e48e478 42364 leoclient2-leovirtstarter-client_0.9.11-3_all.deb
+ c6a87a83ced2aadfd229cb9774fc29f7f641e691d30e607320e7bde8a06c0e71 6196 leoclient2-vm-printer_0.9.11-3_all.deb
+ f102137986ff9ab662d017c58eaebe51aaa43b7d4e142566c6077af6462a3a57 7157 leoclient2_0.9.11-3_amd64.buildinfo
+Files:
+ 29f37c67842f9e2c15011ad6411a4b82 658 admin optional leoclient2_0.9.11-3.dsc
+ 4f6c1bc4119b8c312f8efbd09009f5c5 252542 admin optional leoclient2_0.9.11-3.tar.gz
+ a7b8765cfb887a6fb765053d324f14d8 42364 admin optional leoclient2-leovirtstarter-client_0.9.11-3_all.deb
+ e870ac4b54f02209c4ac62b8c414dd7b 6196 admin optional leoclient2-vm-printer_0.9.11-3_all.deb
+ 6d63ac52f5c1d084e7835707c6045e35 7157 admin optional leoclient2_0.9.11-3_amd64.buildinfo
